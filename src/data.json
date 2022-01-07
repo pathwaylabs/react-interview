@@ -1,0 +1,41 @@
+{
+  "students": [
+    {
+      "name": "Ted Lasso",
+      "application_status": "completed",
+      "payment_id": null,
+      "document_ids": [
+        "4528834"
+      ],
+      "created_at": "1606972785"
+    },
+    {
+      "name": "Keeley Jones",
+      "application_status": "completed",
+      "payment_id": "17847834",
+      "document_ids": [
+        "3257801",
+        "5926431"
+      ],
+      "created_at": "1606968683"
+    },
+    {
+      "name": "Roy Kent",
+      "application_status": "completed",
+      "payment_id": "12385438",
+      "document_ids": [
+        "8585858"
+      ],
+      "created_at": "1606998683"
+    },
+    {
+      "name": "Jamie Tartt",
+      "application_status": "completed",
+      "payment_id": "45385438",
+      "document_ids": [
+        "9585858"
+      ],
+      "created_at": "1606448683"
+    }
+  ]
+}
