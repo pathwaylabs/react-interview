@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.11",
+    "@types/lodash": "^4.14.186",
+    "@types/yup": "^0.32.0",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
     "next": "13.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.38.0",
+    "yup": "^0.32.11",
+    "zod": "^3.19.1"
   },
   "devDependencies": {
     "@types/node": "18.11.7",
