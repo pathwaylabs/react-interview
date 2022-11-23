@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 
-export default function Home() {
+const Home = () => {
   return (
     <Container sx={{
       display: 'grid',
@@ -12,3 +12,5 @@ export default function Home() {
     </Container>
   )
 }
+
+export default Home;
