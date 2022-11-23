@@ -9,7 +9,6 @@ export const DefaultTableRow = styled(MuiTableRow)(({ theme: { palette } }) => `
     td {
       background: rgba(44, 44, 44, 0.5);
     }
-    cursor: pointer;
   }
 `);
 
