@@ -35,12 +35,17 @@ are more important to us than your familiarity with any particular syntax or lib
 
 ## Instructions
 ### Your app should:
-- Display all students currenltly "enrolled" (available in local storage)
+#### Dashboard
 - Allow the user to add an attendance record for one or more students
     - Attendance records must document at least the _hours_ and _date_ of attendance
 - Allow the user to edit or delete an attendance record for one or more students
 - Display the _total_ attendance hours for each student
+- Access to Student View as described below
+
+#### Student View
 - Display each attendance record per student
+- You can implement the student view in any number of ways, including a new page, a modal, etc
+    - please explain your design decision
 
 ## Getting Started
 1. Fork and clone the repo

@@ -1,12 +1,15 @@
-import { styled, TableCellProps } from '@mui/material';
+import { alpha, styled, TableCellProps } from '@mui/material';
 import MuiTableRow from '@mui/material/TableRow';
 import { CoreTableProps } from '.';
 import { DefaultTableCell } from './TableCell';
 import { get } from 'lodash';
 
 export const DefaultTableRow = styled(MuiTableRow)(({ theme: { palette } }) => `
-  td {
-    background: ${palette.background.paper};
+  &:hover {
+    td {
+      background: rgba(44, 44, 44, 0.5);
+    }
+    cursor: pointer;
   }
 `);
 
