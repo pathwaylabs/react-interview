@@ -1,7 +1,7 @@
-import {Container} from '@mui/material';
 import Header from "../components/Header";
+import {Container} from "@mui/material";
 
-const Home = () => {
+const StudentsView = () => {
     return (
         <>
             <Header/>
@@ -9,12 +9,12 @@ const Home = () => {
                 display: 'grid',
                 placeItems: 'center',
                 width: '100vw',
-                height: '100vh',
+                height: '100vh'
             }}>
-                Hello World
+                Students View
             </Container>
         </>
     )
 }
 
-export default Home;
+export default StudentsView;
